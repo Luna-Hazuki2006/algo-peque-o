@@ -9,26 +9,49 @@
 </head>
 <body>
     <header>
-        <div>
-            <h1>GracoSoft</h1>
-        </div>
-        <div>
-            <button id="btnCampus">Campus Virtual</button>
+        <div class="cabeza">
+            <div>
+                <h1>GracoSoft</h1>
+            </div>
+            <div>
+                <button id="btnCampus">Campus Virtual</button>
+            </div>
         </div>
     </header>
     <main>
         <!-- Sección de cursos -->
         <section>
-            <div>
-                <a href="" target="_blank">
-                    <img src="assets/persona-real.png" alt="carrera de desarrollo de software">
-                </a>
-
-            </div>
-
+            <a href="" target="_blank">
+                <img class="imagen" src="assets/persona-real.png" alt="carrera de desarrollo de software">
+            </a>
+            <a href="" target="_blank">
+                <img class="imagen" src="assets/para-niños.jpg" alt="Desarrollo de software para niños">
+            </a>
+            <a href="" target="_blank">
+                <img class="imagen" src="assets/plan-vacacional.jpg" alt="Planes vacacionales">
+            </a>
+            <a href="" target="_blank">
+                <img class="imagen" src="assets/excel.jpg" alt="Excel">
+            </a>
+            <a href="" target="_blank">
+                <img class="imagen" src="assets/pre-universitario.jpg" alt="Pre universitario">
+            </a>
+            <a href="" target="_blank">
+                <img src="" alt="Marketing digital">
+            </a>
         </section>
         <form>
-
+            <p>Contáctanos</p><br><br>
+            <label for="inputNombres">Nombres:</label>
+            <input type="text" name="inputNombres" id="inputNombres"><br><br>
+            <label for="inputApellidos">Apellidos:</label>
+            <input type="text" name="inputApellidos" id="inputApellidos"><br><br>
+            <label for="inputCorreo">Correo:</label>
+            <input type="email" name="inputCorreo" id="inputCorreo"><br><br>
+            <label for="inputTelefono">Teléfono:</label>
+            <input type="tel" name="inputTelefono" id="inputTelefono"><br><br>
+            <label for="textMensaje">Mensaje:</label>
+            <textarea name="textMensaje" id="textMensaje" cols="30" rows="10"></textarea>
         </form>
     </main>
     <footer>
