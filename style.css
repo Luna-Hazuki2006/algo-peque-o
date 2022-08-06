@@ -1,4 +1,9 @@
 header {
     background-image: url(assets/gracosoft.jpg);
-    
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
